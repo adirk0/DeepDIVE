@@ -5,3 +5,5 @@ Code release for the paper:
 by Adir Kobovich, Eitan Yaakobi and Nir Weinberger, ISIT, 2025  
 
 This project incorporates code from kobybibas/blahut_arimoto_algorithm.
+
+![](results/model.png)

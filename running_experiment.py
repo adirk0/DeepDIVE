@@ -83,5 +83,6 @@ def run_list():
     save_metrics(running_p_list, file_path=running_p_file)
     save_metrics(running_w_list, file_path=running_w_file)
 
+
 # run_list()
 running_p, running_w = run_multinomial(iter=0, n_trials=n_trials, use_BA=True, input_dim=6)

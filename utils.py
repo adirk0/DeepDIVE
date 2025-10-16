@@ -126,6 +126,7 @@ def combinations_with_replacement_counts(r, n):
         stops = indices + (size,)
         yield np.array(list(map(operator.sub, stops, starts)))
 
+
 def multinomial_coeff(c):
     return factorial(c.sum()) / factorial(c).prod()
 
